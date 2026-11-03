@@ -27,7 +27,7 @@
         <tbody>
         <tr th:each="prod : ${produtos}">
             <td th:text="${prod.id}">1</td>
-            <td th:text="${prod.nome}">Produto Exemplo</td>
+            <td th:text="${prod.nome}">Produto exemplo</td>
             <td th:text="${#numbers.formatDecimal(prod.preco, 1, 'POINT', 2, 'COMMA')}">0,00</td>
             <td th:text="${prod.estoque}">0</td>
         </tr>
